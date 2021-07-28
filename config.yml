@@ -1,0 +1,17 @@
+environment:
+  env: production
+  loglevel: warn
+
+database:
+  port: 3306
+  username: root
+  password: "%s3cR3t$-"
+  database: project1
+
+games:
+  - game1
+  - game2
+  - game3
+
+until: 2021-01-01 12:13:14
+since: 86400s
